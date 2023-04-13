@@ -1,0 +1,86 @@
+.container-4 {
+  margin-top: 1.7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin-left: 3.5%;
+  .invoice:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  .invoice {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+    margin-right: 1.7%;
+    border-radius: 7px;
+    width: 27%;
+    background-image: url("../img/factoring.png");
+    background-size: contain;
+    background-color: #fdf6e7;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    .content-3 {
+      margin-left: 5%;
+      margin-top: 5%;
+      h4 {
+        margin-bottom: 7%;
+      }
+      p {
+        margin-bottom: 3%;
+      }
+    }
+  }
+
+  .e-commerce:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  .e-commerce {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+    border-radius: 7px;
+    width: 27%;
+    background-image: url("../img/e-commerce.png");
+    background-size: contain;
+    background-color: #e0f3ed;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 38%;
+    .content-4 {
+      margin-left: 5%;
+      margin-top: 5%;
+      h4 {
+        margin-bottom: 7%;
+      }
+      p {
+        margin-bottom: 11.5%;
+      }
+    }
+  }
+  .bank-guarantee:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  .bank-guarantee {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+    margin-left: 1.7%;
+    border-radius: 7px;
+    width: 27%;
+    background-image: url("../img/bank-guarantee.png");
+    background-size: contain;
+    background-color: #f4f5f4;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 38%;
+    .content-5 {
+      margin-left: 5%;
+      margin-top: 5%;
+      h4 {
+        margin-bottom: 7%;
+      }
+      p {
+        margin-bottom: 11.5%;
+      }
+    }
+  }
+}
